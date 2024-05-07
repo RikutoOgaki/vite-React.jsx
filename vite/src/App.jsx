@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import Samp01 from './samples/01/sample01'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import { Header } from './components/Header'
 
 function App() {
 
   return (
     <>
+      <Header title={'aaaa'} />
       <div className='wrap'>
         <h1>Hello Vite+React+JavaScript</h1>
         <a href="/test">
